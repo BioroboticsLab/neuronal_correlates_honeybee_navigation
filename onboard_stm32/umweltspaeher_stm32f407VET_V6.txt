@@ -1,0 +1,85 @@
+Configuration	umweltspaeher_stm32f407VET_V6
+STM32CubeMX 	4.23.0
+Date	12/04/2019
+MCU	STM32F407VETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+I2C3	I2C	I2C3_SCL	PA8
+I2C3	I2C	I2C3_SDA	PC9
+RTC	Activate Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	Activate Calendar	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+RTC	Internal Alarm	RTC_VS_RTC_Alarm_A_Intern	VP_RTC_VS_RTC_Alarm_A_Intern
+RTC	Internal WakeUp	RTC_VS_RTC_WakeUp_intern	VP_RTC_VS_RTC_WakeUp_intern
+SDIO	SD 1 bit	SDIO_CK	PC12
+SDIO	SD 1 bit	SDIO_CMD	PD2
+SDIO	SD 1 bit	SDIO_D0	PC8
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+USART3	Asynchronous	USART3_RX	PD9
+USART3	Asynchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+23	PA0-WKUP	GPIO_Output	SPI CS1 
+25	PA2	USART2_TX	
+26	PA3	USART2_RX	
+29	PA4	GPIO_Output	SPI1 CS0
+30	PA5	SPI1_SCK	
+31	PA6	SPI1_MISO	
+32	PA7	SPI1_MOSI	
+46	PE15	GPIO_Input	
+47	PB10	GPIO_Output	
+48	PB11	GPIO_Input	
+51	PB12	GPIO_Output	
+52	PB13	GPIO_Input	
+53	PB14	GPIO_Output	
+55	PD8	USART3_TX	
+56	PD9	USART3_RX	
+65	PC8	SDIO_D0	
+66	PC9	I2C3_SDA	
+67	PA8	I2C3_SCL	
+68	PA9	USART1_TX	
+69	PA10	USART1_RX	
+80	PC12	SDIO_CK	
+83	PD2	SDIO_CMD	
+92	PB6	I2C1_SCL	
+93	PB7	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : umweltspaeher_stm32f407VET_V6
+Project Folder : C:\Users\Julian\Desktop\Programming\Repos\Master_Thesis\working\Master_Thesis_Neurocopter_all_except_stm_code\Neurocopter_STM32_Project_Working_Version
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F4 V1.16.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
